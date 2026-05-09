@@ -1,0 +1,32 @@
+# Google Sheets script para recoger datos del detector
+# by Ynerpoe
+# abril 2026
+
+function doPost(e) {
+  try {
+    if (!e || !e.postData || !e.postData.contents) {
+      return ContentService.createTextOutput("No POST data received");
+    }
+
+    var data = JSON.parse(e.postData.contents);
+
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var sheet = ss.getSheetByName("Hoja 1");
+
+    sheet.appendRow([
+      new Date(),
+      data.cuentas,
+      data.tiempo_s,
+      data.cpm
+    ]);
+
+    return ContentService.createTextOutput("OK");
+  }
+  catch (err) {
+    return ContentService.createTextOutput("Error: " + err);
+  }
+}
+
+function doGet(e) {
+  return ContentService.createTextOutput("Google Sheets Webhook activo");
+}
