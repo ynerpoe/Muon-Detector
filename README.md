@@ -48,7 +48,3 @@ Se aceptan mejoras al código, documentación y análisis.
 ## Licencia
 
 MIT.
-
----
-
-Si quieres, puedo generar una versión aún más corta, una orientada a estudiantes o una más técnica para publicación.
