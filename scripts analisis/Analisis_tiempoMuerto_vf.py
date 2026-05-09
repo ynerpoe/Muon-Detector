@@ -1,10 +1,11 @@
+# ==========================================================
 # Análisis de ajuste de distribución exponencial truncada 
 # a los intervalos entre eventos de muones detectados, considerando un tiempo muerto.
 # El código carga los datos, estima los parámetros de la distribución,
 # genera la curva teórica y grafica los resultados con estilo científico clásico.
 # Autor: YnerPoe
 # fecha: 23 de abril de 2026
-
+# ==========================================================
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
