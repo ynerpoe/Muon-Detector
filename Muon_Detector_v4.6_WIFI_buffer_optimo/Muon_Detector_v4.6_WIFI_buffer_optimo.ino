@@ -32,7 +32,7 @@ const unsigned long ventana = 50;
 unsigned long tiempo_inicio; 
 unsigned long ultimoEnvio = 0; 
 
-String webhookURL = "https://script.google.com/macros/s/AKfycbzsTXI2LUokExQQbkT1HIaTAtI3r22oms4ZAvh4Yz2BNCudlCRerLYZsnrfazTckC7eyw/exec";
+String webhookURL = "coloca aquí la URL de Google Sheets";
 
 // Control de envío no bloqueante
 int indiceEnvio = 0;
