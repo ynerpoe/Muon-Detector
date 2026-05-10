@@ -14,8 +14,8 @@ Este proyecto implementa un detector de muones atmosféricos basado en dos tubos
 ## Hardware requerido
 
 - NodeMCU ESP8266  
-- Dos tubos Geiger–Müller y módulos de alta tensión  
-- Pantalla OLED I2C  
+- Dos detectores Geiger–Müller RadiationD-v1.1 (CAJOE)  
+- Pantalla OLED I2C  (opcional)
 - Fuente de alimentación y soporte mecánico
 
 ## Funcionalidades del firmware
