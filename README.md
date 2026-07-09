@@ -2,6 +2,10 @@
 
 Este proyecto implementa un detector de muones atmosféricos basado en dos tubos Geiger–Müller en coincidencia, controlado por un NodeMCU ESP8266. El sistema permite registrar eventos, calcular tasas de conteo y enviar datos a la nube para análisis.
 
+## How to cite / Cómo citar
+If you use this software in your research, please acknowledge LabTec-UMCE in your acknowledgements section or cite it as: 
+LabTec-UMCE & YnerPoe (2026). Muon-Detector. https://github.com/ynerpoe/Muon-Detector
+
 ## Características principales
 
 - Coincidencia entre dos tubos GM para reducir ruido y detectar muones.  
