@@ -55,5 +55,3 @@ Se aceptan mejoras al código, documentación y análisis.
 ## Licencia
 
 MIT.
-
-![](https://goatcounter.com)
